@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(437,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.c
+C:\Users\a2495\OneDrive\桌面\CH3 LAB\CH3 LAB1\source\main.c(16,11): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+C:\Users\a2495\OneDrive\桌面\CH3 LAB\CH3 LAB1\source\main.c(16,11): message : 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+C:\Users\a2495\OneDrive\桌面\CH3 LAB\CH3 LAB1\source\main.c(16,11): message : 缺少 variadic 引數 2 (其為格式字串 '%c' 所需)
+C:\Users\a2495\OneDrive\桌面\CH3 LAB\CH3 LAB1\source\main.c(16,11): message : 此引數可用為緩衝區大小
+  ch3 lab1.vcxproj -> C:\Users\a2495\OneDrive\桌面\CH3 LAB\CH3 LAB1\ch3 lab1\ch3 lab1\..\..\temp\debug\ch3 lab1.exe
