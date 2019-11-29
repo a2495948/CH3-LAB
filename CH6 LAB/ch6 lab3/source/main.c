@@ -27,9 +27,16 @@ void main()
 	{
 		printf("%6s %-10s %-8s  %4d  %4d  %4d\n", (ps + i)->num, (ps + i)->clas, (ps + i)->name, (ps + i)->score[0], (ps + i)->score[1], (ps + i)->score[2]);
 	}
+	printf("  呼叫函式前\n\n");
+	sub(ps);
+	printf("\n  呼叫函式後\n");
+	for (i = 0; i <= 2; i++)
+	{
+		printf("%6s %-10s %-8s  %4d  %4d  %4d\n", (ps + i)->num, (ps + i)->clas, (ps + i)->name, (ps + i)->score[0], (ps + i)->score[1], (ps + i)->score[2]);
+	}
 	printf("\n");
 	system("pause");
-	return 0;
+	
 }
 
 void sub(student* p)
@@ -37,8 +44,8 @@ void sub(student* p)
 	int i;
 	for (i = 0; i <= 2; i++)
 	{
+		(p + i)->score[0] += 10;
 		(p + i)->score[1] += 10;
 		(p + i)->score[2] += 10;
-		(p + i)->score[3] += 10;
 	}
 }
